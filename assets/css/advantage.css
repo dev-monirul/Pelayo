@@ -1,0 +1,39 @@
+section.advantage-area {
+    padding: 210px 0 140px 0;
+}
+.single-advantage-item h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+    position: relative;
+    padding-top: 40px;
+}
+.single-advantage-item h3:after{
+    position: absolute;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    top: 0;
+    background: #d59090;
+    content: "";
+    border-radius: 5px 0 0 0;
+    -webkit-border-radius: 5px 0 0 0;
+    -moz-border-radius: 5px 0 0 0;
+    -ms-border-radius: 5px 0 0 0;
+    -o-border-radius: 5px 0 0 0;
+}
+
+.single-advantage-item p {
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: normal;
+    color: #010101;
+}
+.single-advantage-item {
+    margin-top: 50px;
+}

@@ -1,0 +1,128 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    section.header-top {
+        margin-bottom: 25px;
+    }
+    a.sv-btn-2{
+        margin: 0 30px;
+    }
+    section.advantage-area {
+        padding: 100px 0 100px 0;
+    }
+    .feature-item-text {
+        padding: 50px 0 0 50px;
+    }
+    .testimonial-area{
+        margin-top: 100px;
+    }
+    .testimonial .owl-nav div.owl-next{
+        right: 0;
+    }
+    .testimonial .owl-nav div{
+        left: 0;
+    }
+    section.footer-area {
+        text-align: center;
+    }
+    
+    .footer-contact {
+        text-align: center;
+    }
+    
+    .footer-widget-3 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    section.header-top {
+        margin-bottom: 25px;
+    }
+   
+    section.advantage-area {
+        padding: 100px 0 100px 0;
+    }
+    .feature-item-text {
+        padding: 50px 0 0 50px;
+        width: 100%;
+    }
+    .testimonial-area{
+        margin-top: 100px;
+    }
+    .testimonial .owl-nav div.owl-next{
+        right: 0;
+    }
+    .testimonial .owl-nav div{
+        left: 0;
+    }
+    section.footer-area {
+        text-align: center;
+    }
+    
+    .footer-contact {
+        text-align: center;
+    }
+    
+    .footer-widget-3 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .h-content-2 {
+        width: auto;
+    }
+    
+    section.service-area {
+        padding: 100px 0 0 0;
+    }
+    
+    a.sv-btn-2 {
+        text-align: center;
+        display: inline-block;
+        margin-top: 30px;
+    }
+    
+    a.sv-btn-1 {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .services-btn.text-right {
+        text-align: center;
+    }
+    
+    section.about-area {
+        padding: 100px 0 0 0;
+    }
+    
+    .author:after {
+        right: 0;
+    }
+    
+    .author {
+        margin-bottom: 100px;
+    }
+    .feature-item-img {
+        width: 100%;
+    }
+    .author img {
+        min-width: 100% !important;
+        min-height: 100% !important;
+        max-width: 100%;
+        max-height: 100%;
+        position: unset;
+    }
+    
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}

@@ -1,0 +1,46 @@
+section.about-area {
+    padding: 190px 0 0 0;
+}
+.about-area .section-title h4 {
+    font-size: 21px;
+}
+.about-area .section-title h1 {
+    margin-bottom: 80px;
+}
+.author img {
+    min-height: 610px;
+    min-width: 525px;
+    left: -80px;
+    position: relative;
+}
+.author{
+    position: relative;
+}
+.author:after{
+    position: absolute;
+    right: -60px;
+    height: 330px;
+    width: 220px;
+    background: #000;
+    content: "";
+    bottom: -60px;
+    z-index: -1;
+}
+a.know-more {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    letter-spacing: 1px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+a.know-more:hover{
+    opacity: .5;
+}
